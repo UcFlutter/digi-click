@@ -1,0 +1,93 @@
+.custom-navbar{
+    background-image: url(../images/hero-bg-img.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background-color: none !important;
+    /* position: absolute; */
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    color: white !important;
+}
+.bg-dark-expanded{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#btn-green{
+    background-color: #013B32;
+    color: white;
+}
+#services-container{
+    margin-top: 50px;
+    background-image: url(../images/thought.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+/* Custom List Styling */
+.custom-list {
+    font-size: 1rem;
+    color: #333;
+}
+
+.custom-list li {
+    margin-bottom: 15px;
+}
+
+/* Title and Paragraph Adjustments */
+h2 {
+    font-size: 1.75rem;
+    color: #000;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+footer{
+    background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+
+}
+input{
+    width: 300px !important;
+}
+.btn-increase{
+    width: 100px;
+    background-color: #013B32;
+}
+.social-text{
+    color: white;
+}
+.footer-link{
+    color: white !important;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.footer-link:nth-child(1){
+    padding: 0;
+}
+
+footer #copyright{
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .custom-list {
+        font-size: 0.9rem;
+    }
+    
+    p {
+        font-size: 0.9rem;
+    }
+}

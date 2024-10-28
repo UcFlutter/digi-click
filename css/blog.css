@@ -1,0 +1,86 @@
+.custom-navbar{
+    background-image: url(../images/hero-bg-img.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    background-color: none !important;
+    /* position: absolute; */
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    color: white !important;
+}
+.bg-dark-expanded{
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#btn-green{
+    background-color: #013B32;
+    color: white;
+}
+#services-container{
+    margin-top: 50px;
+    background-image: url(../images/thought.png);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    padding: 50px;
+}
+/* .margin-down{
+    margin-bottom: 20px !important;
+} */
+
+.btn-expand{
+    width: 100% !important;
+}
+.card-title{
+    font-size: 9px !important;
+}
+/* .card-title:nth-child(1){
+    font-size: 9px !important;
+} */
+.card-subtitle{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin: 10px; */
+    line-height: 1;
+    font-size: 10px;
+}
+footer{
+    background: linear-gradient(90deg, #bdc3c7, #2c3e50);
+
+}
+input{
+    width: 300px !important;
+}
+.btn-increase{
+    width: 100px;
+    background-color: #013B32;
+}
+.social-text{
+    color: white;
+}
+.footer-link{
+    color: white !important;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.footer-link:nth-child(1){
+    padding: 0;
+}
+
+footer #copyright{
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+}
+
+@media (max-width: 768px){
+    #services-container{
+        margin-top: 20px;
+        /* width: 50%; */
+    }
+
+}
